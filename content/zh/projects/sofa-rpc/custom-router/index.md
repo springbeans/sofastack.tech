@@ -5,7 +5,7 @@ aliases: "/sofa-rpc/docs/Custom-Router"
 ---
 
 
-SOFARPC 中对服务地址的选择也抽象为了一条处理链，由每一个 Router 进行处理。同 Filter 一样， SOFARPC 对 Router 提供了同样的扩展能力。
+SOFARPC 中对服务地址的选择也抽象出了一条处理链，由每一个 Router 进行处理。同 Filter 一样， SOFARPC 对 Router 提供了同样的扩展能力。
 ```java
 @Extension(value = "customerRouter")
 @AutoActive(consumerSide = true)
